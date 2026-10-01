@@ -1,0 +1,51 @@
+
+body {
+    display: flex;             
+    justify-content: center;    
+    align-items: center;        
+    min-height: 100vh;          
+    background-color: white;  
+}
+
+#funciones{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding: 30px;
+    font-family: 'Trebuchet MS';
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center; 
+    width: fit-content;
+    max-width: 900%;
+
+}
+
+#main2 {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    padding: 30px;
+    font-family: 'Trebuchet MS';
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center; 
+    width: fit-content;
+    max-width: 900%;
+
+
+}
+
+section{
+    gap: 5%;
+    display: grid;
+    grid: 1fr;
+    place-items: center;
+
+
+
+}
